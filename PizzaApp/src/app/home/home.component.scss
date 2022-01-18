@@ -1,0 +1,57 @@
+.ViewButton{
+  transition-duration: 0.4s;
+border-radius: 12px;
+width: 100px;
+margin-right: 5px;
+}
+
+.ViewButton:hover {
+background-color: rgb(241, 236, 213); /* Green */
+color: rgba(106, 81, 151, 0.171);
+}
+
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+.card {
+
+  border: 1px solid #172f4e;
+  color: rgba(40, 16, 124, 0.8);
+  background-color: #9cad51e1;
+  margin-bottom: 2rem;
+}
+
+
+
+
+.card-title{
+  color: #172f4e;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.card-text{
+  color: #222;;
+  font-weight: 10px;
+}
+
+.container{
+  padding : 5px 5px 5px 5px
+}
+
+.card-title{
+  margin-top: 10 px;
+}
+
+#cardContainer{
+  padding : 10px 10px 10px 10px
+}
+.card-subtitle{
+  font-size: small;
+  font-weight: normal;
+}
+#body{
+  margin: 10px 10px 10px 10px;
+  background-image: url('https://w7.pngwing.com/pngs/214/704/png-transparent-sketch-of-pizza-pizza-graphic-design-pizza-line-food-abstract-lines-lines-thumbnail.png');
+}

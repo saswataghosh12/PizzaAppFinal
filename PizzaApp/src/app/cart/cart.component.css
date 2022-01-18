@@ -1,0 +1,42 @@
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+.card {
+  border: 1px solid #dd2476;
+  color: rgba(10, 10, 10, 0.8);
+  margin-bottom: 2rem;
+}
+
+#body {
+  padding: 10px 10px 10px 10px;
+}
+
+.card-title {
+  color: #222;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.card-text {
+  color: #222;
+  font-weight: 10px;
+}
+
+.container {
+  padding: 5px 5px 5px 5px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+#cardContainer {
+  padding: 10px 10px 10px 10px;
+}
+
+.card-subtitle {
+  font-size: small;
+  font-weight: normal;
+}
+/*# sourceMappingURL=cart.component.css.map */

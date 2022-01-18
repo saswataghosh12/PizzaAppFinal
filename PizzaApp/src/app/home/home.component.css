@@ -1,0 +1,78 @@
+.ViewButton {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  border-radius: 12px;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.ViewButton:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+}
+
+:root {
+  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+}
+
+.card {
+  border: 1px solid #dd2476;
+  color: rgba(10, 10, 10, 0.8);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source: var(--gradient) !important;
+  text-decoration: none;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.btn:hover, .btn:focus {
+  background: var(--gradient) !important;
+  -webkit-background-clip: none !important;
+  -webkit-text-fill-color: #111010 !important;
+  border: 5px solid #fff !important;
+  -webkit-box-shadow: #222 1px 0 10px;
+          box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+
+.card-title {
+  color: #222;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.card-text {
+  color: #222;
+  font-weight: 10px;
+}
+
+.container {
+  padding: 5px 5px 5px 5px;
+}
+
+.card-title {
+  margin-top: 10px;
+}
+
+#cardContainer {
+  padding: 10px 10px 10px 10px;
+}
+
+.card-subtitle {
+  font-size: small;
+  font-weight: normal;
+}
+
+#body {
+  margin: 10px 10px 10px 10px;
+}
+/*# sourceMappingURL=home.component.css.map */
